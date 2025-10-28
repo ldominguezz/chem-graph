@@ -3,24 +3,34 @@ import Layout from "../layouts/Layout.astro";
 import ServicesCard from "../components/ServicesCard.astro";
 ---
 
-<Layout title="Servicios">  
-  <main class="max-w-5xl mx-auto">
+<Layout title="Servicios">
+  <main class="max-w-5xl mx-auto  mb-10 mt-4">
     <div class="flex flex-col items-center justify-center">
       <section>
         <h1 class="text-4xl font-bold px-4 py-4 text-center">Servicios</h1>
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <ServicesCard
-            type="Preimpresión"
+            title="Diseño de packaging"
             description="Soluciones para una excelente calidad en su impresión"
             link="Preimpresion"
           />
           <ServicesCard
-            type="Clichés"
+            title="Gestión de la cadena gráfica"
             description="Soluciones flexográficas para cartón ondulado y envase flexible"
             link="Cliches"
-            />
+          />
           <ServicesCard
-            type="Troqueles"
+            title="Gestión de flujos de trabajo"
+            description="Servicio completo de troqueles"
+            link="Troqueles"
+          />
+          <ServicesCard
+            title="Servicios de preimpresión"
+            description="Servicio completo de troqueles"
+            link="Troqueles"
+          />
+          <ServicesCard
+            title="Gestión del color"
             description="Servicio completo de troqueles"
             link="Troqueles"
           />
