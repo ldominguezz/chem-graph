@@ -16,10 +16,11 @@ import HeaderButton from "../components/HeaderButton.astro";
       class="flex flex-col items-center justify-between text-center md:flex-row gap-12"
     >
       <ul class="flex gap-4 md:gap-12">
-        <HeaderButton text="Productos" />
-        <HeaderButton text="Servicios" />
-        <HeaderButton text="Contacto" />
+        <HeaderButton text="Sobre Nosotros" page="/" />
+        <HeaderButton text="Servicios" page="/services" />
+        <HeaderButton text="Troqueles" page="/preimpresion" />
       </ul>
     </nav>
+    <button class="bg-primary text-white px-4 py-2 rounded hover:bg-primary/80 transition-transform duration-300">Contacto</button>
   </div>
 </header>
