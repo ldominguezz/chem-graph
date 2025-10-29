@@ -3,11 +3,11 @@ const { title, description, link } = Astro.props;
 ---
 
 <div
-  class="h-48 w-64 md:w-auto p-6 md:mb-8 mb-2 rounded-lg shadow-sm bg-white border-2 border-primary hover:border-secondary hover:scale-105 transition-all duration-300 flex flex-col"
+  class="h-48 w-64 p-6 md:mb-8 mb-2 rounded-lg shadow-sm bg-white border-2 border-primary hover:border-secondary hover:scale-105 transition-all duration-300 flex flex-col"
 >
-  <div class="flex flex-col items-center md:flex-row gap-6 mb-4">
+  <div class="flex flex-col items-center gap-6 mb-4">
     <img src="/images/hero-image.webp" alt="" width="10" height="10" />
-    <h5 class="mb-2 text-sm md:text-md font-bold tracking-tight text-primary">
+    <h5 class="text-sm md:text-md font-bold tracking-tight text-primary">
       {`${title}`}
     </h5>
     
